@@ -1035,16 +1035,17 @@ label {
     width: 250px;
 }
 
-.click-here {
+.right .click-here {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: 50px;
+    /* justify-content: center; */
+    margin-top: 20px;
+    /* border-bottom: 2px solid crimson; */
 }
 
-.click-here p {
+.right .click-here #chp {
     text-align: center;
-    font-size: 28px;
+    font-size: 28px; 
     border-bottom: 2px crimson solid;
     display: flex;
     gap: 10px;
@@ -1052,7 +1053,7 @@ label {
     justify-content: center;
 }
 
-.click-here p .click-here-button {
+.right .click-here .chp .click-here-button {
     border: none;
     color: crimson;
     background: none;
@@ -1272,14 +1273,15 @@ label {
         content: "";
     }
 
-    .click-here p {
+    #chp-mobile {
         font-size: 21px;
     }
     .click-here .click-here-button{
         margin-top: 0px;
     }
     .click-here {
-        margin-top: 20px;
+        margin-bottom: 20px;
+        border-bottom: 2px solid crimson;
     }
 }
 
